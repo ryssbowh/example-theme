@@ -3,7 +3,7 @@
 namespace Namespace\Example;
 
 use Ryssbowh\CraftThemes\Theme as BaseTheme;
-use themes\front\assets\Example;
+use Namespace\Example\bundleAssets\Example;
 
 class Theme extends BaseTheme
 {
