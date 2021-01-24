@@ -1,6 +1,6 @@
 <?php 
 
-namespace themes\front\assets;
+namespace Namespace\Example\bundleAssets;
 
 use craft\web\AssetBundle;
 
