@@ -1,0 +1,13 @@
+{
+  "name": "namespace/example",
+  "description": "Example Theme",
+  "type": "craft-theme",
+  "autoload": {
+    "psr-4": {
+      "Namespace\\Example\\": ""
+    }
+  },
+  "extra": {
+    "handle": "example"
+  }
+}
