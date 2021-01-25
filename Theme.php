@@ -1,6 +1,6 @@
 <?php 
 
-namespace Namespace\Example;
+namespace Themes\Example;
 
 use Ryssbowh\CraftThemes\Theme as BaseTheme;
 use Namespace\Example\bundleAssets\Example;

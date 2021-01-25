@@ -1,11 +1,14 @@
 {
-  "name": "namespace/example",
+  "name": "themes/example",
   "description": "Example Theme",
   "type": "craft-theme",
   "autoload": {
     "psr-4": {
-      "Namespace\\Example\\": ""
+      "Themes\\Example\\": ""
     }
+  },
+  "require": {
+    "ryssbowh/craft-theme-installer-plugin": "^0.1"
   },
   "extra": {
     "handle": "example"
