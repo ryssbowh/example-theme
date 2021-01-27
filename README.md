@@ -1,1 +1,1 @@
-A basic Craft theme
+A Craft theme example

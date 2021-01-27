@@ -3,14 +3,15 @@
 namespace Themes\Example;
 
 use Ryssbowh\CraftThemes\Theme as BaseTheme;
-use Namespace\Example\bundleAssets\Example;
+use Themes\Example\assetBundles\Example;
+use Themes\Example\assetBundles\Images;
 
 class Theme extends BaseTheme
-{
+{	
 	/**
 	 * inheritDoc
 	 */
-	protected $bundleAssets = [
+	protected $assetBundles = [
 		'*' => [
 			Example::class,
 		]
@@ -22,13 +23,5 @@ class Theme extends BaseTheme
 	public function getName(): string
 	{
 		return 'Example';
-	}
-
-	/**
-	 * inheritDoc
-	 */
-	public function getHandle(): string
-	{
-		return 'example';
 	}
 }
