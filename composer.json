@@ -1,5 +1,5 @@
 {
-  "name": "themes/example",
+  "name": "ryssbowh/example-theme",
   "description": "Example Theme",
   "type": "craft-theme",
   "autoload": {
