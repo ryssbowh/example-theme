@@ -7,9 +7,6 @@
       "Themes\\Example\\": ""
     }
   },
-  "require": {
-    "ryssbowh/craft-theme-installer-plugin": "^0.1"
-  },
   "extra": {
     "handle": "example"
   }
