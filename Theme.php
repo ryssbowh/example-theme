@@ -2,11 +2,12 @@
 
 namespace Themes\Example;
 
-use Ryssbowh\CraftThemes\Theme as BaseTheme;
+use Ryssbowh\CraftThemes\ThemePlugin;
+use Ryssbowh\CraftThemes\models\Region;
 use Themes\Example\assetBundles\Example;
 use Themes\Example\assetBundles\Images;
 
-class Theme extends BaseTheme
+class Theme extends ThemePlugin
 {	
 	/**
 	 * inheritDoc
@@ -17,11 +18,5 @@ class Theme extends BaseTheme
 		]
 	];
 
-	/**
-	 * inheritDoc
-	 */
-	public function getName(): string
-	{
-		return 'Example';
-	}
+	protected $selectable = false;
 }

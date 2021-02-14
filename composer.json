@@ -1,13 +1,14 @@
 {
   "name": "ryssbowh/example-theme",
   "description": "Example Theme",
-  "type": "craft-theme",
+  "type": "craft-plugin",
   "autoload": {
     "psr-4": {
       "Themes\\Example\\": ""
     }
   },
   "extra": {
-    "handle": "example"
+    "handle": "example-theme",
+    "class": "Themes\\Example\\Theme"
   }
 }
