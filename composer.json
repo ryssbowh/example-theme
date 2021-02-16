@@ -7,7 +7,11 @@
       "Themes\\Example\\": ""
     }
   },
+  "require": {
+    "ryssbowh/craft-themes": "2.0"
+  },
   "extra": {
+    "name": "Example Theme",
     "handle": "example-theme",
     "class": "Themes\\Example\\Theme"
   }

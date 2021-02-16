@@ -17,6 +17,4 @@ class Theme extends ThemePlugin
 			Example::class,
 		]
 	];
-
-	protected $selectable = false;
 }
